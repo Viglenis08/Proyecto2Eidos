@@ -169,7 +169,7 @@ li.menu-item:hover, li.menu-item a.active{
 
 /* Responsive*/
 
-@media (max-width: 600px){
+@media (max-width: 768px){
    
   
         
@@ -491,8 +491,8 @@ footer{
 
 
 
-@media (min-width: 1200px) {
-    .perfil-container{
+@media (min-width: 1024px) {
+    .perfil-container{    
        display: flex;
        align-items: center;
        padding-top: 130px;
