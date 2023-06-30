@@ -255,7 +255,7 @@ li.menu-item:hover, li.menu-item a.active{
     .habilidades .contenido-seccion .barra {
         display: flex;
         border: 1px solid #940253;
-        padding: 7px;
+        padding: 1px;
         border-radius: px;
         margin-right: 10px;
     }
