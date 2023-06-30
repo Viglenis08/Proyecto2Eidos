@@ -168,173 +168,40 @@ li.menu-item:hover, li.menu-item a.active{
 
 
 /* Responsive*/
-
-@media (max-width: 768px){
-   
-  
-        
-    .menu-container{
-        flex-direction: column;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background-color: var(--mobile-color);
-        height: 100%;
-        opacity: 0;
-        pointer-events: none;
-        gap: 50px;
+@media (max-width: 768px) {
+    .nav-container {
+        margin: 5px 20px;
     }
 
-    header a{
-        color: var(--text-color-inverse);
-    }
-    
-    header{
-        position: fixed;
-        height: 90px;
-        width: 100%;
-        box-shadow: 0px 0px 5px var(--shadow-color);
-        background-color: var(--theme-color);
-        left: 0;
-        top: 0;
-    }
-    
-    li.menu-item:hover, li.menu-item a.active{
-        background: none;
-        color: var(--mobile-text-color);       
+    header .logo {
+        width: 80px;
     }
 
-    .open-menu, .close-menu{
-        display: block;
-        border: none;
-        background: none;
+    .logo-contacto img {
+        max-width: 60px;
     }
 
-    .close-menu{
-        align-self: flex-end;
-        padding: 29px 40px;
+    .menu-container {
+        gap: 10px;
     }
 
-    .menu_abierto{
-        opacity: 1;
-        pointer-events: all;
+    .open-menu,
+    .close-menu {
+        display: inline-block;
     }
-    
-    .habilidades .contenido-seccion {
-        max-width: 100%;
-        margin: auto;
-        padding: 0 100px;
+
+    .download-cv {
+        margin-bottom: 50px;
     }
-    
-    .habilidades .contenido-seccion h3 {
-        text-transform: uppercase;
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-    
-    .habilidades .contenido-seccion .fila {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-top: 20px;
-    }
-    
+
     .habilidades .contenido-seccion .fila .col {
         width: 100%;
-        max-width: 400px;
-        text-align: center;
-        margin-bottom: 30px;
     }
-    
-    .habilidades .contenido-seccion .fila .col .cont-barra {
-        display: flex;
-        align-items: center;
-    }
-    
-    .habilidades .contenido-seccion .barra {
-        display: flex;
-        border: 1px solid #940253;
-        padding: 1px;
-        border-radius: px;
-        margin-right: 10px;
-    }
-    
-    .habilidades .contenido-seccion .barra .e {
-        background-color: beige;
-        flex-grow: 1;
-        height: 20px;
-        margin-right: 2px;
-    }
-    .resumen .contenido-seccion {
-        max-width: 100%;
-        margin: auto;
-        padding: 0 15px;
-    }
-    
-    .resumen .contenido-seccion h3 {
-        text-transform: uppercase;
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-    
-    .resumen .contenido-seccion .info {
-        text-align: left;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-top: 20px;
-    }
-    
+
     .resumen .contenido-seccion .info .col {
         width: 100%;
-        max-width: 400px;
-        margin-bottom: 30px;
     }
-    
-    .resumen .contenido-seccion .info .col .titulo {
-        display: inline-block;
-        color: #940253;
-        font-weight: bold;
-        border: 2px solid #940253;
-        padding: 10px;
-    }
-    
-    .resumen .contenido-seccion .info .col table {
-        margin-top: 20px;
-        border-collapse: collapse;
-    }
-    
-    .resumen .contenido-seccion .info .col table .datos {
-        width: 40%;
-        border-bottom: 1px solid #af599e;
-    }
-    
-    .resumen .contenido-seccion .info .col table h4 {
-        margin-top: 10px;
-    }
-    
-    .resumen .contenido-seccion .info .col table h3 {
-        font-size: 16px;
-        margin-bottom: 5px;
-    }
-    
-    .resumen .contenido-seccion .info .col table p {
-        font-size: 12px;
-    }
-    
-    .resumen .contenido-seccion .info .col table .promedio {
-        display: block;
-        color: #940253;
-        margin-top: 10px;
-        font-weight: bold;
-    }
-    
-    .resumen .contenido-seccion .info .col table .descripcion {
-        border-left: 1px solid #af599e;
-        padding-left: 20px;
-    }
-    
+}
     
 
 }.contacto img{
@@ -490,26 +357,29 @@ footer{
 
 
 
-
-@media (min-width: 1024px) {
-    .perfil-container{    
-       display: flex;
-       align-items: center;
-       padding-top: 130px;
+@media (max-width: 1024px) {
+    .nav-container {
+        margin: 5px 60px;
     }
 
-    .perfil-text{
-        margin: 0 30px;
-    }
-    .resumen{
-        max-width: 990px;
-        margin: 200px auto;
-    }
-    .contacto{
-        max-width: 950px;
-        margin: 120px auto;
+    header .logo {
+        width: 100px;
     }
 
+    .logo-contacto img {
+        max-width: 75px;
+    }
 
+    .menu-container {
+        gap: 15px;
+    }
+
+    .resumen .contenido-seccion .info .col table h3 {
+        font-size: 16px;
+    }
+
+    .resumen .contenido-seccion .info .col table p {
+        font-size: 12px;
+    }
 }
   
