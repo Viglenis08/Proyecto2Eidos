@@ -352,26 +352,4 @@ footer{
 
 
 }
-  @media (max-width: 400px) {
-    .menu-container {
-        padding: 0 20px;
-        gap: 20px;
-    }
-
-    .habilidades .contenido-seccion {
-        padding: 0;
-    }
-
-    .habilidades .contenido-seccion .fila .col {
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .resumen .contenido-seccion {
-        padding: 0;
-    }
-
-    .resumen .contenido-seccion .info .col {
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
+  
