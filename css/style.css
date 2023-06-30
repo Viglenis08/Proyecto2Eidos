@@ -272,7 +272,7 @@ li.menu-item:hover, li.menu-item a.active{
 .habilidades .contenido-seccion .barra .e {
     background-color: beige;
     flex-grow: 1;
-    height: 8px;
+    height: 20px;
     margin-right: 2px;
 }
 
