@@ -273,7 +273,7 @@ li.menu-item:hover, li.menu-item a.active{
     background-color: beige;
     flex-grow: 1;
     height: 20px;
-    margin-right: 2px;
+    margin-right: 1px;
 }
 
     .resumen .contenido-seccion {
